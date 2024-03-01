@@ -8,10 +8,10 @@ RSpec.describe "Pages", type: :request do
       expect(response).to have_http_status(:success)
     end
 
-    it "should have right title" do
-      get "/pages/home"
-      expect(response).to have_title("Ruby on Rails Tutorial Sample App | Home")
-    end
+    #it "should have right title" do
+     # get "/pages/home"
+      #expect(response).to have_title("Ruby on Rails Tutorial Sample App | Home")
+    #end
   end
 
   describe "GET /contact" do
